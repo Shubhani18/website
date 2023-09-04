@@ -1,0 +1,358 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: #0093E9;
+     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+     height:800px;
+
+}
+.nav-container{
+    color:rgba(0, 0, 255, 0.412);
+    background-color:orange;
+    height:70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container p{
+    font-size: 3rem;
+    text-align: center;
+    color:black;
+    font-weight: 900px;
+    font-style: italic;
+    text-shadow:2px 2px #ff0000;
+}
+.nav-content a{
+    color:blue;
+    font-size:1.5rem;
+    margin-left: 20px;
+    margin-right:20px;
+    gap:20px;
+
+}
+.nav-content i{
+    font-size: 1.5rem;
+    font-weight:500px;
+}
+.nav-img{
+    height:70px;
+    width:100px;
+    margin-right:70px;
+}
+.logo{
+    background-image: url("images/pj.jpeg");
+    background-size:cover;
+    height:70px;
+    width:100%;
+}
+.header-img{
+    height:800px;
+}
+.header-logo{
+    background-image: url("images/r285-Singh-Punjabi-Dhaba-Best-Punjabi-Dhaba-In-Udaipur-design-2021-09.jpg");
+    background-size: cover;
+    height:800px;
+    width:100%;
+}
+.container2{
+    height:1400px;
+    background-color: #0093E9;
+    background-image:linear-gradient(160deg,#0093E9 0%, #80D0C7 100%);
+    
+}
+.menu-heading{
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-heading p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size:3rem;
+    margin-top:30px;
+}
+.menu-heading1{
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+  .para-class{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 2rem; 
+    text-align: center; 
+    margin-bottom:50px;  
+  }
+  .menu-heading1 i{
+    font-size: 2rem;
+  }
+  .box-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height:1000px;
+  }
+  .border{
+    border:7px solid black;
+  }
+  .box{
+    width:23%;
+    height:310px;
+    margin-left: 10px;
+  }
+  .box1{
+    width:23%;
+    height:310px;
+    margin-left:10px;
+    margin-top: 30px;
+    
+  }
+  .box2{
+    width:23%;
+    height:310px;
+    margin-left:10px;
+    margin-top:30px;
+
+  }
+  .box1-img{
+ background-image: url("images/Amritsari-Kulcha.jpg");
+ background-size: cover;
+ width:100%;
+ height:300px;
+  }
+  .box2-img{
+    background-image: url("images/chole.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px;
+  }
+  .box3-img{
+    background-image:url("images/dal_makhani.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px;
+  }
+    .box4-img{
+      background-image: url("images/istockphoto-1321061421-612x612.jpg");
+      background-size: cover;
+      width:100%;
+      height:300px;
+      
+  }
+  .box5-img{
+    background-image: url("images/punjabi-rajma.jpg");
+    background-size: cover;
+      width:100%;
+      height:300px;
+  }
+  .box6-img{
+    background-image: url("images/dsc_0489.jpga_.jpg");
+    background-size: cover;
+      width:100%;
+      height:300px;
+  }
+  .box7-img{
+    background-image: url("images/baingan_ka_bharta.jpg");
+    background-size: cover;
+      width:100%;
+      height:300px;
+  }
+  .box8-img{
+    background-image: url("images/palak-paneer.jpg");
+    background-size: cover;
+     width:100%;
+     height:300px;
+  }
+  .box9-img{
+    background-image: url("images/punjabi-bhendi.jpg");
+    background-size: cover;
+     width:100%;
+     height:320px;
+  }
+  .box10-img{
+    background-image: url("images/makki_di_roti_sarson_da_saag.jpg");
+    background-size:cover;
+     width:100%;
+     height:320px;
+  }
+  .box11-img{
+    background-image: url("images/churchur-naan.jpg");
+    background-size: cover;
+     width:100%;
+     height:320px;
+  }
+  .box12-img{
+    background-image: url("images/Punjabi-Lassi.jpg");
+    background-size: cover;
+     width:100%;
+     height:320px;
+  }
+  .img-content{
+    font-size:2rem;
+    font-weight: 600;
+    text-align:center;
+    font-style: italic;
+  }
+  .img{
+    position:relative;
+    bottom:112px;
+    left:500px;
+    width:50px;
+    height:30px;
+  }
+  .img1{
+    position:relative;
+    bottom:90px;
+    width:150px;
+    height:70px;
+  }
+  .offer-style{
+    color:black;
+    font-size:1.5rem;
+    font-weight:900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left:20px;
+    position:relative;
+    bottom:90px;
+
+  }
+  .container3{
+    height:400px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+  }
+  .footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    position:relative;
+    bottom:2px;
+    top:20px;
+    left:170px;
+  }
+  .footer-content{
+    position:relative;
+    top:100px;
+    right:100px;
+    margin-top:20px;
+    font-size:1.7rem;
+  }
+  .footer-content p{
+    margin-bottom:20px;
+    margin-top:20px;
+  }
+  @media screen and (min-width:400px)and (max-width:991px){
+    .nav-content i{
+      display:block;
+      margin-right:10px;
+    }
+    .nav-content a{
+      display:none;
+    }
+    .container2{
+      height:1800px;
+    }
+    .box-container{
+      height:1400px;
+    }
+    .box{
+      width:30.6%;
+      margin-top:25px;
+      gap:10px;
+    }
+    .box1-img{
+      background-size: cover;
+      width:100%;
+    }
+    .box4-img{
+      background-size: cover;
+      width:100%;
+    }
+    .box1{
+      width:30.6%;
+      margin-top:25px;
+      gap:10px;
+    }
+    .box2{
+      width:30.6%;
+      margin-top:27px;
+      gap:10px;
+      margin-bottom:32px;
+    }
+    .container3{
+      position:relative;
+      bottom:47px;
+    }
+    .offer-style{
+      margin-right:50px;
+    }
+    .para-class{
+      position:relative;
+      left:70px;
+    }
+    .menu-heading{
+      position:relative;
+      left:70px;
+    }
+    .nav-container p{
+      font-size:1.5rem;
+      margin-left: 28px;
+    
+    }
+    .para-class{
+      transform: translateX(-50px);
+    }
+    .menu-heading{
+       transform: translateX(-50px);
+    }
+    .offer-style{
+      transform: translateY(30px);
+    }
+    .img1{
+      transform:translateY(32px);
+    }
+    .img{
+      position: relative;
+      left:250px;
+      bottom:120px;
+      
+       
+    }
+  }
+  @media screen and(width>=991px){
+    .nav-content i{
+      display:block;
+      margin-right:10px;
+    }
+    .nav-content {
+      display:flex;
+      gap:7px;
+  }
+  .img{
+    position:absolute;
+    top:100px;
+    bottom:100px;
+    right:100px;
+    left:100px;
+     
+  }
+
+}
+  
+
+  
+
+
+
+
+
